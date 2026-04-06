@@ -54,7 +54,7 @@ The dataset is highly imbalanced, making fraud detection difficult. This project
 
 ## Project Structure
 ```
-data/ # Dataset
+data/ # Dataset information
 notebooks/ # Jupyter notebooks for analysis and modeling
 figures/ # Visualizations of the results
 README.md # Project documentation
