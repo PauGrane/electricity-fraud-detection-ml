@@ -53,24 +53,14 @@ The dataset is highly imbalanced, making fraud detection difficult. This project
 - XGBoost
 
 ## Project Structure
-fraud-detection-electricity/
-│
-├── data/
-│   └── sample.csv
-│
-├── notebooks/
-│   └── 01_fraud_detection.ipynb
-│
-├── src/
-│   ├── preprocessing.py
-│   ├── modeling.py
-│   └── evaluation.py
-│
-├── images/
-│   ├── confusion_matrix.png
-│   ├── pr_curve.png
-│   └── feature_importance.png
-│
-├── requirements.txt
-└── README.md
-
+```
+data/ # Dataset or sample data
+notebooks/ # Jupyter notebooks for analysis and modeling
+src/ # Source code (preprocessing, modeling, evaluation)
+images/ # Visualizations used in the README
+README.md # Project documentation
+requirements.txt # Dependencies
+```
+## How to Run
+```bash
+pip install -r requirements.txt
